@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
+html, body {
   font-family: "Archivo Black", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #EDCB96;
   color: #605770;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 nav {
@@ -41,6 +45,11 @@ h1 {
   color: #605770;
 }
 
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
 footer {
   background-color: #4D4861;
   color: white;
@@ -68,11 +77,9 @@ footer p {
 
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 @media (prefers-reduced-motion: no-preference) {
