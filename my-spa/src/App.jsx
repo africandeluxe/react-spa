@@ -9,9 +9,15 @@ function App() {
 
   return (
     <div className="App">
-      <Navigation setCurrentPage={setCurrentPage} />
-      <PageContent currentPage={currentPage} />
-      <Footer />
+      <header>
+        <Navigation setCurrentPage={setCurrentPage} />
+      </header>
+      <main>
+        <PageContent currentPage={currentPage} />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
