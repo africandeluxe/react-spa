@@ -1,3 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Archivo Black", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #EDCB96;
+  color: #605770;
+}
+
+nav {
+  background-color: #4D4861;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav button {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav button:hover {
+  background-color: white;
+  color: #EDCB96;
+}
+
+div.content {
+  padding: 20px;
+  min-height: 80vh;
+}
+
+h1 {
+  color: #605770;
+}
+
+footer {
+  background-color: #4D4861;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  nav button {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .content {
+    padding: 10px;
+  }
+}
+
 .App {
   text-align: center;
 }
